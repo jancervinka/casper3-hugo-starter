@@ -24,4 +24,5 @@ fields:
   name: feature_image
   label: feature_image
 pages:
+- content/post/Test.md
 - content/post/test.md
