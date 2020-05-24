@@ -1,6 +1,6 @@
 ---
 label: Post
-hide_body: true
+hide_body: false
 fields:
 - type: file
   name: feature_image
@@ -20,6 +20,13 @@ fields:
   type: tag_list
   default: []
   label: tags
+- name: block
+  type: blocks
+  label: Block
+  template_types: []
+  config:
+    min: 
+    max: 
 pages:
 - content/post/Test.md
 - content/post/test.md
